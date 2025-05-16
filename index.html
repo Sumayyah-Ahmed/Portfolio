@@ -1,0 +1,258 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    </head>
+    
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/logo.png" class="logo" />
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Web developer</p>
+                    <h1>Hi, I'm <span>Sumayyah Aziz Ahmed!</span><br></h1>
+                </div><br>
+                <h3>Student | Intern | Business Owner | Web Developer | Software Engineer</h3>
+                
+            </div>
+        </div>
+
+<!-- -----------about---------- -->
+ <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/me.png" />
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I have launched a small IT company, with the name of Aziziyah.com, focused on accelerating business growth. With expertise in creating aesthetically pleasing websites, e-commerce platforms, flyers, templates, and logos, I have successfully assisted clients in enhancing their business operations. For instance, I helped a group of cake decorators overcome the challenge of losing media shared on WhatsApp by developing a secure and attractive website, which not only safeguarded their content but also increased customer engagement. I am eager to leverage my skills to help your business grow efficiently and effectively. How can I assist you in achieving your business goals?</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Software Development</span><br>Python, Java, GitHub, Databases (SQL, phpMyAdmin), VS CODE</li>
+                        <li><span>Web Development</span><br>HTML, CSS, JavaScript, React, Bootstrap, CodeIgniter 4, WordPress, UI/UX Design</li>
+                        <li><span>Other Skills</span><br>Microsoft Office Suite, Google Workspace, Adobe Dreamweaver, Whimsical, Canva, Draw.io</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>April 2025 - Present</span><br>Developer Intern at AllPeople Marketplace.</li>
+                        <li><span>2021 - Present</span><br>Administrative at a Non-Profit Organization.</li>
+                        <li><span>Feb 2025 - Apr 2025</span><br>Student Volunteer at Data Lake Project.</li>
+                        <li><span>Oct 2024 - Feb 2025</span><br>Volunteer at Aunt Mary's Storybook Project.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2024 - In Process</span><br>Bachelor's in Computer Science from Lewis University.</li>
+                        <li><span>2021 - 2024</span><br>Associate in Applied Science from College of DuPage.</li>
+                        <li><span>2019 - 2021</span><br>High School from Penn Foster Pennsylvania.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+         <a href="#" class="btn">Back to Top</a>
+
+    </div>
+</div>
+
+<!-- ---------services---------------- -->
+ <div id="services">
+    <div class="container">
+        <h1 class="sub-title">We Offer</h1>
+        <div class="services-list">
+            <div>
+                <h2>Web Design</h2>
+                <p>We focus on how a website looks and feels to the user, ensuring it is visually appealing and easy to navigate.</p>
+            </div>
+            <div>
+                <h2>Graphic Design</h2>
+                <p>Our graphic designs involve creating visually appealing and user-friendly interfaces that enhance user satisfaction and accessibility.</p>
+            </div>
+            <div>
+                <h2>App Design</h2>
+                <p>We ensure that the application is visually appealing and easy to use, providing a seamless experience for users.</p>
+            </div>
+            <div>
+                <h2>E-commerce Website</h2>
+                <p>Our e-commerce websites allow users to buy and sell products online with features.</p>
+            </div>
+            <div>
+                <h2>Logo Maker</h2>
+                <p>our designed custom logos will match your brand's style and message.</p>
+            </div>
+            <div>
+                <h2>Flyer & Templates</h2>
+                <p>We offer customizable flyer templates for easy and professional flyer creation.</p>
+            </div>
+        </div>
+         <a href="#" class="btn">Back to Top</a>
+    </div>
+</div>
+
+<!-- ----------portfolio------------ -->
+ <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Basic Websites</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/GiftShop.png" />
+                <div class="layer">
+                    <h3>Gift-Shop</h3>
+                    <p>Let's explore this further.</p>
+                    <a href="https://sumayyah-ahmed.github.io/Gift-shop/"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Maxwell.png" />
+                <div class="layer">
+                    <h3>Maxwell Scientific</h3>
+                    <p>Let's examine this.</p>
+                    <a href="https://maxwellscience.netlify.app/"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/ECommerce.png" />
+                <div class="layer">
+                    <h3>E-Commerce Website</h3>
+                    <p>Coming Soon</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Restaurant.png" />
+                <div class="layer">
+                    <h3>Restaurant</h3>
+                    <p>Check out children's classes</p>
+                    <a href="https://sumayyah-ahmed.github.io/CarolynesCreations/"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Math.png" />
+                <div class="layer">
+                    <h3>MathMentor</h3>
+                    <p>Let's learn Math and love it. Coming soon</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/ToDo.png" />
+                <div class="layer">
+                    <h3>To Do App</h3>
+                    <p>We will inspect this closely, stay tune</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                     
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">Back to Top</a>
+       
+
+    </div>
+</div>
+<!-- ----------contact------------- -->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> ahmedsumayyah781@gmail.com</p>
+                <div class="social-icons">
+                    <a href="https://github.com/Sumayyah-Ahmed" target="_blank" rel="noopener noreferrer" ><i class="fa-brands fa-github"></i></a> 
+                    <a href="https://www.linkedin.com/in/saa11" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:ahmedsumayyah781@gmai.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+                <div class="info">
+                    <a href="images/Sumayyah_Resume.pdf" target="_blank" rel="noopener noreferrer" download class="btn btn2">Resume</a>
+                    <a href="images/Reference1.pdf" target="_blank" rel="noopener noreferrer" download class="btn btn2">Reference</a>
+                    <a href="images/Reference2.pdf" target="_blank" rel="noopener noreferrer" download class="btn btn2">Reference</a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Name" required>
+                    <input type="email" name="Email" placeholder="Email" required>
+                    <textarea name="Message" rows="6" placeholder="Message" required></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="copyright">
+    <p>© Sumayyah Ahmed. All rights reserved!</p>
+</div>
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxw3fIrXDzgayTWO4MDQrtN-EhXzfrvO2napTv2Mo08PytxdkjFp0YHtaPpXI0arjE3dw/exec' 
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
