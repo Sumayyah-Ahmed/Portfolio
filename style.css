@@ -354,6 +354,25 @@ form .btn2{
     color: #b8860b;
     text-decoration: none;
 }
+
+/* typewriter */
+.typewriter {
+  font-family: monospaced;
+  font-size: 2rem;
+  white-space: nowrap;
+  overflow: hidden;
+  color: #b8860b;
+}
+
+.cursor {
+  display: inline-block;
+  animation: blink 0.7s steps(1) infinite;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
+
 /* -----------------css for small screens--------- */
 nav .fas{
     display: none;
