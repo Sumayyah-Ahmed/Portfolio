@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/logo.png" class="logo" />
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Web developer</p>
+                    <h1>Hi, I'm <span>Sumayyah Aziz Ahmed!</span><br></h1>
+                </div><br>
+                <h3>Student | Intern | Business Owner | Web Developer | Software Engineer</h3>
+            </div>
+        </div>
+
+<!-- -----------about---------- -->    
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/me.png" />
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>I have launched a small IT company, with the name of aziziyah.net, focused on accelerating business growth. With expertise in creating aesthetically pleasing websites, e-commerce platforms, flyers, templates, and logos, I have successfully assisted clients in enhancing their business operations. For instance, I helped a group of cake decorators overcome the challenge of losing media shared on WhatsApp by developing a secure and attractive website, which not only safeguarded their content but also increased customer engagement. I am eager to leverage my skills to help your business grow efficiently and effectively. How can I assist you in achieving your business goals?</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Software Development</span><br>Python, Java, GitHub, Databases (SQL, phpMyAdmin), VS CODE</li>
+                                <li><span>Web Development</span><br>HTML, CSS, JavaScript, React, Bootstrap, CodeIgniter 4, WordPress, UI/UX Design</li>
+                                <li><span>Other Skills</span><br>Microsoft Office Suite, Google Workspace, Adobe Dreamweaver, Whimsical, Canva, Draw.io</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>April 2025 - Present</span><br>Developer Intern at AllPeople Marketplace</li>
+                                <li><span>2021 - Present</span><br>Administrator at a Non-Profit Organization</li>
+                                <li><span>Feb 2025 - Apr 2025</span><br>Student Volunteer at Data Lake Project</li>
+                                <li><span>Oct 2024 - Feb 2025</span><br>Volunteer at Aunt Mary's Storybook Project</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2024 - In Process</span><br>Bachelor's in Computer Science from Lewis University</li>
+                                <li><span>2021 - 2024</span><br>Associate in Applied Science from College of DuPage</li>
+                                <li><span>2019 - 2021</span><br>High School from Penn Foster Pennsylvania</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn contact-right">Back to Top</a>
+        </div>
+            
+        
+<!-- ---------services---------------- -->        
+        
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">We Offer</h1>
+                <div class="services-list">
+                    <div>
+                        <h2>Web Design</h2>
+                        <p>We focus on how a website looks and feels to the user, ensuring it is visually appealing and easy to navigate.</p>
+                    </div>
+                    <div>
+                        <h2>Graphic Design</h2>
+                        <p>Our graphic designs involve creating visually appealing and user-friendly interfaces that enhance user satisfaction and accessibility.</p>
+                    </div>
+                    <div>
+                        <h2>App Design</h2>
+                        <p>We ensure that the application is visually appealing and easy to use, providing a seamless experience for users.</p>
+                    </div>
+                    
+                    <div>
+                        <h2>Logo Maker</h2>
+                        <p>our designed custom logos will match your brand's style and message.</p>
+                    </div>
+                    <div>
+                        <h2>Flyer & Templates</h2>
+                        <p>We offer customizable flyer templates for easy and professional flyer creation.</p>
+                    </div>
+                    
+                    <div>
+                        <h2>Website Renewal</h2>
+                        <p>Refresh and modernize your existing website with updated design and functionality for a better user experience.</p>
+                    </div>
+                    <div>
+                        <h2>Custom Web Hosting</h2>
+                        <p>Tailored hosting solutions designed to meet the specific performance and scalability.</p>
+                    </div>
+                    <div>
+                        <h2>Website Maintenance</h2>
+                        <p>Ongoing service to keep your site's updates, security, and performance.</p>
+                    </div>
+                    <div>
+                        <h2>E-commerce Website</h2>
+                        <p>Our e-commerce websites allow users to buy and sell products online with features.</p>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#" class="btn contact-right">Back to Top</a>
+            </div>
+
+<!-- ----------portfolio------------ -->
+
+            
+            
+            <div id="portfolio">
+                <div class="container">
+                    <h1 class="sub-title">Basic Websites</h1>
+                    <div class="work-list basic-websites">
+                        <div class="work"><img src="images/GiftShop.png" /><div class="layer"><h3>Gift-Shop</h3><p>Let's explore this further.</p><a href="https://sumayyah-ahmed.github.io/Gift-Shop/"><i class="fas fa-external-link-alt"></i></a></div></div>
+                        <div class="work"><img src="images/Maxwell.png" /><div class="layer"><h3>Maxwell Scientific</h3><p>Let's examine this.</p><a href="https://maxwellscience.netlify.app/"><i class="fas fa-external-link-alt"></i></a></div></div>
+                        <div class="work"><img src="images/Restaurant.png" /><div class="layer"><h3>Restaurant</h3><p>Check out children's classes</p><a href="https://sumayyah-ahmed.github.io/CarolynesCreations/"><i class="fas fa-external-link-alt"></i></a></div></div>
+                    </div><br>
+<!-- Next cards -->
+                    
+                    <h1 class="sub-title">Mini Projects</h1>
+                    <div class="work-list mini-projects">
+                        <div class="work"><img src="images/calculator.png" /><div class="layer"><h3>Calculator</h3><h4>Live Demo</h4><h5>HTML | CSS | JavaScript</h5><a href="https://sumayyah-ahmed.github.io/Calculator/"><i class="fas fa-external-link-alt"></i></a></div></div>
+                        <div class="work"><img src="images/recipe finder.png" /><div class="layer"><h3>Recipe Haven</h3><h5>Live Demo</h5><h5>HTML | CSS | JavaScript | API</h5><a href="https://sumayyah-ahmed.github.io/Recipe-Haven/"><i class="fas fa-external-link-alt"></i></a></div></div>
+                    </div><br>
+                    
+                    <h1 class="sub-title">My Web Creations</h1>
+                    <div class="work-list Client-Projects">
+                        <div class="work"><img src="images/Henna.png" /><div class="layer"><h3>Henna</h3><p>Everyone's favorite</p><a href="https://sumayyah-ahmed.github.io/Henna/"><i class="fas fa-external-link-alt"></i></a></div></div>
+                        <div class="work"><img src="images/Makeup.png" /><div class="layer"><h3>Makeup</h3><p>Girls will love it!</p><a href="https://sumayyah-ahmed.github.io/Makeup/"><i class="fas fa-external-link-alt"></i></a></div></div>
+                        <div class="work"><img src="images/LittleAngel.png" /><div class="layer"><h3>LittleAngels</h3><p>Delightful ideas for kids’ fashion, tasty treats, and smart parenting tips.</p><a href="https://sumayyah-ahmed.github.io/LittleUmmah/"><i class="fas fa-external-link-alt"></i></a></div></div>
+                    </div><br>
+<!-- Next cards -->
+                    
+                    <h1 class="sub-title">Under Development</h1>
+                    <div class="work-list Under-Development">
+                        <div class="work"><img src="images/HealthyFood.png" /><div class="layer"><h3>Healthy Food</h3><p>Coming soon</p><a href="#"><i class="fas fa-external-link-alt"></i></a></div></div>
+                        <div class="work"><img src="images/ToDo.png" /><div class="layer"><h3>To Do App</h3><p>We will inspect this closely, stay tuned</p><a href="#"><i class="fas fa-external-link-alt"></i></a></div></div>
+                        <div class="work"><img src="images/ECommerce.png" /><div class="layer"><h3>E-Commerce Website</h3><p>Coming Soon</p><a href="#"><i class="fas fa-external-link-alt"></i></a></div></div>
+                    </div>
+                </div>
+                <a href="#" class="btn contact-right">Back to Top</a>
+            </div>
+        </div>
+        
+        
+<!-- ----------contact------------- -->       
+        <div class="typewriter">
+            <span id="typing"></span><span class="cursor">|</span>
+        </div>
+
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/saa11" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+                            <a href="mailto:ahmedsumayyah781@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+                        </div>
+                        <div class="info">
+                            <a href="images/Sumayyah_Resume.pdf" target="_blank" rel="noopener noreferrer" download class="btn btn2 contact-right">Resume</a>
+                            <a href="images/Reference1.pdf" target="_blank" rel="noopener noreferrer" download class="btn btn2 contact-right">Reference</a>
+                            <a href="images/Reference2.pdf" target="_blank" rel="noopener noreferrer" download class="btn btn2 contact-right">Reference</a>
+                        </div>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Name" required>
+                            <input type="email" name="Email" placeholder="Email" required>
+                            <input type="text" name="Message" placeholder="Your Message" required>
+                            <button type="submit" class="btn btn2 contact-right">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p> © 2025 aziziyah.net | All Rights Reserved</p>
+        </div>
+        <script src="script.js"></script>
+    
+    </body>
+    </html>
