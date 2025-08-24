@@ -72,6 +72,9 @@ nav ul li a:hover::after{
     color: #ffd700;
 }
 
+.contact-rights{
+    color: #ffd700;
+}
 
 
 /* -----------about--------------- */
@@ -152,6 +155,9 @@ nav ul li a:hover::after{
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 40px;
     margin-top: 50px;
+}
+.services-list i {
+  color:  #f8f9f9;/* Change this to any color you like */
 }
 .services-list div{
     background: #b8860b;
@@ -318,8 +324,19 @@ nav ul li a:hover::after{
 
     
 }
+.contact-right{
+  background: #262626;
+  padding: 30px 25px;
+  border: 3px solid #b8860b;
+  border-radius: 8px;
+  max-width: 500px;      /* optional */
+  margin: 20px auto;     /* centers the box */
+
+}
+
 .contact-right form{
     width: 100%;
+    margin: 0;
 }
 form input, form textarea{
     width: 100%;
@@ -363,6 +380,7 @@ form .btn2{
   white-space: nowrap;
   overflow: hidden;
   color: #b8860b;
+  text-align: center;
 }
 
 .cursor {
