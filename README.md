@@ -20,8 +20,6 @@ A clean, modern, and thoughtfully crafted portfolio showcasing my work as a Full
 * VS Code
 
 ## Live Portfolio
-Explore the site: https://sumayyah-ahmed.github.io/Portfolio/
-
 Explore the site: **[https://sumayyah-ahmed.github.io/Portfolio/](https://sumayyah-ahmed.github.io/Portfolio/)**
 
 ## 📸 Screenshots 
