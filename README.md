@@ -28,4 +28,4 @@ Explore the site: **[https://sumayyah-ahmed.github.io/Portfolio/](https://sumayy
  ![portfolio](images/web.png)
 
 # Enjoyed This Project?
-If you find this project helpful or inspiring, please consider giving it a ⭐. It really motivates me to keep building. Thank you!
+If you find this project helpful or inspiring, please consider giving it a ⭐. It really motivates me to keep building. Thanks!
