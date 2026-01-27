@@ -23,8 +23,8 @@ A clean, modern, and thoughtfully crafted portfolio showcasing my work as a Full
 Explore the site: https://sumayyah-ahmed.github.io/Portfolio/
 
 ## 📸 Screenshots 
-![portfolio](images/about.png)
- ![portfolio](images/offers.png) 
+![portfolio](images/about.png)<br><br>
+ ![portfolio](images/offers.png)<br><br>
  ![portfolio](images/web.png)
 
 # Enjoyed This Project?
