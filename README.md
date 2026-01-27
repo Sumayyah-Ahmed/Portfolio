@@ -11,21 +11,21 @@ A clean, modern, and thoughtfully crafted portfolio showcasing my work as a Full
 * Contact Section — Easy ways to reach me for collaborations or freelance work
 
 ## Tech Used
-HTML, CSS, JavaScript
+* HTML, CSS, JavaScript
 
-Responsive UI Design
+* Responsive UI Design
 
-Git & GitHub
+* Git & GitHub
 
-VS Code
+* VS Code
 
 ## Live Portfolio
 Explore the site: https://sumayyah-ahmed.github.io/Portfolio/
 
 ## 📸 Screenshots 
-![Home Page](src/images/home.png)
- ![Dark Mode](src/images/dark.png) 
- ![Results Page](src/images/result.png)
+![portfolio](images/about.png)
+ ![portfolio](images/offers.png) 
+ ![portfolio](images/web.png)
 
 # Enjoyed This Project?
 If you find this project helpful or inspiring, please consider giving it a ⭐. It really motivates me to keep building. Thank you!
